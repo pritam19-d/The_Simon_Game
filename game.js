@@ -9,6 +9,7 @@ $(document).keypress (function(){
         nextSequence()
     }else {}
 })
+
 // Automation of the game
 function nextSequence() {
     var randomNumber = Math.floor(Math.random() * 4);
@@ -68,5 +69,5 @@ function checkAnswer(currentLevel){
 // Restart the game
 function startOver (){
     level= 0 
-    gamePattern = n
+    gamePattern = []
 }
