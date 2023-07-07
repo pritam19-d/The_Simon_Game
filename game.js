@@ -9,6 +9,11 @@ $(document).keypress (function(){
         nextSequence()
     }else {}
 })
+$(".clickMe").click (function(){
+    if (level === 0){
+        nextSequence()
+    }else {}
+})
 
 // Automation of the game
 function nextSequence() {
